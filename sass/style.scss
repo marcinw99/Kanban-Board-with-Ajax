@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+body {
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+	background: #0091EA;
+}
+
+.board > h1 {
+	display: inline-block;
+	font-family: 'Handlee', cursive;
+	text-transform: uppercase;
+	font-size: 3rem;
+	margin: 15px 25px 15px 0;
+	color: #ccc;
+	text-shadow: 0px 0px 2px #000;
+}
+
+.board {
+	box-sizing: border-box;
+	margin: 25px;
+	text-align: center;
+	border: 2px dashed #ccc;
+}
+
+.board button {
+	border: none;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.board > button {
+	padding: 10px;
+	font-size: 1.7rem;
+	border-radius: 10px;
+}
+
+.card .btn-delete {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.column-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.column {
+	width: 300px;
+	min-height: 400px;
+	max-height: 600px;
+	overflow: auto;
+	background: #EEEEEE;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+
+.column-card-list {
+	list-style-type: none;
+	min-height: 50%;
+}
+
+.column-title {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.column > .btn-delete {
+	margin-right: 10px;
+}
+
+.card {
+	position: relative;
+	box-sizing: border-box;
+	width: 90%;
+	background: #FAFAFA;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+
+.card-placeholder {
+	background: red;
+}
