@@ -41,6 +41,16 @@ body {
 	position: absolute;
 	right: 0;
 	top: 0;
+	width: 30px;
+	height: 50%;
+}
+
+.card .btn-edit {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 30px;
+	height: 50%;
 }
 
 .column-container {
@@ -50,6 +60,7 @@ body {
 }
 
 .column {
+	position: relative;
 	width: 300px;
 	min-height: 400px;
 	max-height: 600px;
@@ -72,6 +83,12 @@ body {
 
 .column > .btn-delete {
 	margin-right: 10px;
+}
+
+.column > .btn-edit {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .card {
