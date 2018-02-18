@@ -24,6 +24,7 @@ function Card(id, name, columnId) {
 			.append(cardEditBtn);
 		cardDescription.text(self.name);
 		card.append(cardDescription);
+		card.data('id', self.id);
 		return card;
 	}
 }

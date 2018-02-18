@@ -46,6 +46,7 @@ function Column(id, name) {
 			.append(columnDelete)
 			.append(columnAddCard)
 			.append(columnCardList);
+		column.data('id', self.id);
 			return column;
 		}
 	}
